@@ -1,0 +1,14 @@
+{
+   "icons": [
+      {
+         "src": "logo/bm-logo-192.png",
+         "type": "img/png",
+         "sizes": "192x192"
+      },
+      {
+         "src": "logo/bm-logo.png",
+         "type": "img/png",
+         "sizes": "2000x2000"
+      }
+   ]
+}
