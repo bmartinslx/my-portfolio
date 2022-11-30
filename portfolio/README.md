@@ -1,3 +1,3 @@
 #README Image
 
-![PORTFOLIO!](/portfolio.PNG)
+![Alt text](/portfolio.png)
