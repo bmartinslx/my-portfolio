@@ -370,7 +370,6 @@
          <!--  *** CONTACT SECTION *** -->
          <div id="contact" class="collapse">
             <div class="card card-body bg-danger text-white py-5">
-               <h1 class="text-center">"THIS IS UNDER CONSTRUCTION"</h1>
                <h2>Contact</h2>
                <p class="lead">Feel free to contact me.</p>
             </div>
@@ -380,7 +379,7 @@
                   I help brands and platforms turn big ideas into beautiful
                   digital products and experiences.
                </p>
-               <form>
+               <form name="contacted" netlify>
                   <!-- ^^^ INPUT NAME ^^^ -->
                   <div class="form-group">
                      <div class="input-group input-group-lg">
@@ -393,6 +392,8 @@
                            type="text"
                            class="form-control bg-dark text-white"
                            placeholder="Name"
+                           name="full-name"
+                           required
                         />
                      </div>
                   </div>
@@ -408,6 +409,8 @@
                            type="text"
                            class="form-control bg-dark text-white"
                            placeholder="Email"
+                           name="email"
+                           required
                         />
                      </div>
                   </div>
@@ -421,6 +424,8 @@
                         </div>
                         <textarea
                            class="form-control bg-dark text-white"
+                           name="text"
+                           required
                         ></textarea>
                      </div>
                   </div>
